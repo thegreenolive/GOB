@@ -20,3 +20,6 @@
   * [02.0 Introduction](chapter-02-modeling/02.0-introduction.md)
   * [02.1 What is a model?](chapter-02-modeling/02.1-what-is-a-model.md)
   * [02.2 Types of Models](chapter-02-modeling/02.2-types-of-models.md)
+  * [02.3 The Mathematical Model Structure](chapter-02-modeling/02.3-the-mathematical-model-structure.md)
+  * [02.4 Logical Structures of Models](chapter-02-modeling/02.4-logical-structures-of-models.md)
+  * [02.5 Problem, Solution, Implementation](chapter-02-modeling/02.5-problem-solution-implementation.md)
