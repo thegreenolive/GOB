@@ -16,7 +16,7 @@
   * [01.2 The Hierarchy of Data](chapter-01-basic-concepts/01.2-the-hierarchy-of-data.md)
   * [01.3 Hardware Architecture](chapter-01-basic-concepts/01.3-hardware-architecture.md)
   * [01.4 Software and Languages](chapter-01-basic-concepts/01.4-software-and-languages.md)
-* [Chapter 02: Modeling](chapter-02-modeling/README.md)
+* [Chapter 02: Modeling](chapter-02-modeling.md)
   * [02.0 Introduction](chapter-02-modeling/02.0-introduction.md)
   * [02.1 What is a model?](chapter-02-modeling/02.1-what-is-a-model.md)
   * [02.2 Types of Models](chapter-02-modeling/02.2-types-of-models.md)
