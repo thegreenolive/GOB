@@ -23,3 +23,6 @@
   * [02.3 The Mathematical Model Structure](chapter-02-modeling/02.3-the-mathematical-model-structure.md)
   * [02.4 Logical Structures of Models](chapter-02-modeling/02.4-logical-structures-of-models.md)
   * [02.5 Problem, Solution, Implementation](chapter-02-modeling/02.5-problem-solution-implementation.md)
+* [Chapter 03: Th Blueprint of a Solution](chapter-03-th-blueprint-of-a-solution/README.md)
+  * [03.1 Introduction](chapter-03-th-blueprint-of-a-solution/03.1-introduction.md)
+  * [03.2 The Three domains of problem solving](chapter-03-th-blueprint-of-a-solution/03.2-the-three-domains-of-problem-solving.md)
