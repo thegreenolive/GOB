@@ -25,4 +25,5 @@
   * [02.5 Problem, Solution, Implementation](chapter-02-modeling/02.5-problem-solution-implementation.md)
 * [Chapter 03: Th Blueprint of a Solution](chapter-03-th-blueprint-of-a-solution/README.md)
   * [03.1 Introduction](chapter-03-th-blueprint-of-a-solution/03.1-introduction.md)
-  * [03.2 The Three domains of problem solving](chapter-03-th-blueprint-of-a-solution/03.2-the-three-domains-of-problem-solving.md)
+  * [03.2 The Domains of Problem Solving](chapter-03-th-blueprint-of-a-solution/03.2-the-domains-of-problem-solving.md)
+  * [03.3 The Four-Step Approach](chapter-03-th-blueprint-of-a-solution/03.3-the-four-step-approach.md)
