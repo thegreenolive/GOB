@@ -28,4 +28,5 @@
   * [03.2 The Domains of Problem Solving](chapter-03-the-blueprint-of-a-solution/03.2-the-domains-of-problem-solving.md)
   * [03.3 The Four-Step Approach](chapter-03-the-blueprint-of-a-solution/03.3-the-four-step-approach.md)
   * [03.4 Walkthroughs](chapter-03-the-blueprint-of-a-solution/03.4-walkthroughs.md)
+  * [03. 5 Primitive Problems](chapter-03-the-blueprint-of-a-solution/03.-5-primitive-problems.md)
 * [index](index.md)
