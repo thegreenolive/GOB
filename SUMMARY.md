@@ -34,4 +34,6 @@
   * [04.02 Hierarchy and Modularity](chapter-04-the-blueprint-of-a-solution/04.02-hierarchy-and-modularity.md)
   * [04.03 The Essential Model](chapter-04-the-blueprint-of-a-solution/04.03-the-essential-model.md)
   * [04.04 Implementation Models](chapter-04-the-blueprint-of-a-solution/04.04-implementation-models.md)
-  * [Chapter 05: Implementation](chapter-04-the-blueprint-of-a-solution/chapter-05-implementation.md)
+* [Chapter 05: Programming](chapter-05-programming/README.md)
+  * [05:00 Introduction](chapter-05-programming/05-00-introduction.md)
+  * [05:01 Writing a Program](chapter-05-programming/05-01-writing-a-program.md)
