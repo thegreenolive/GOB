@@ -6,7 +6,13 @@ The selection of the [programming language](https://en.wikipedia.org/wiki/Progra
 
 ### Model to Code
 
-All aspects of a problem considered during the analysis phase are critical to program development. Now, out of the blueprint artifacts introduced in Chapter 04, the implementation diagram and pseudocode are especially important. Flowcharts and pseudocode provide a structure and outline of the code. In some cases, the jump from implementation models to instructions can be done directly, but that is not to be expected for all designs.&#x20;
+All aspects of a problem considered during the analysis phase are critical to program development. Now, out of the blueprint artifacts introduced in Chapter 04, the implementation diagram and pseudocode are especially important. Flowcharts and pseudocode provide a structure and outline of the code. In some cases, the jump from implementation models to instructions can be done directly, but that is not to be expected for all designs. The reader will find that Python code has a highly readable syntax that is very close to pseudocode.&#x20;
 
-SImilar to pseudocode, each programming language
+Like pseudocode, a programming language uses symbols to represent data (input) and actions to be performed on it (output). The set of rules that defines how data is represented and how instructions are encoded for execution is the **syntax** of the programming language. In general terms, there are some aspects of the syntax that each programming language addresses. In the same way that French and English are different languages, but both have the equivalent of words indicating action or _verbs_. The following list includes aspects of functionality that are provided by most programming languages' syntax.
+
+* **Name data**: Data to be used must be stored in main memory. Syntax must facilitate the assignment of memory for saving and retrieving data. &#x20;
+* **Access Hardware Devices**: The syntax must allow moving data from peripheral devices to memory (input) and from memory to peripheral devices (output).
+* **Execute Arithmetic and Logic Instructions**: A syntax must exist to execute operations as basic as the ALU (Arithmetic Logic Unit). Nowadays, modern programming languages go beyond those basic operations. Syntax also must support selection and iteration to manage program decision-making.
+* **Express Statements**:&#x20;
+* **Name Modules**
 
