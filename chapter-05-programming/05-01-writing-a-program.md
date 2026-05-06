@@ -42,7 +42,7 @@ Python utilizes a hybrid approach. When a Python script is executed, the source 
 
 The obvious advantage of a pure compiler is execution speed, since the translation is done once and the program can thereafter be executed. Compiled programs typically run faster than interpreted programs. The disadvantage is that the executable code is tied to a particular machine or machine architecture. Interpreted code is slower to execute because of translation time, but it has the advantage of being more portable, since the translation takes place at runtime on the machine where it is executed. However, the interpreter must reside on the machine executing the program.
 
-[The following page provides a brief history of programming languages.](programming-languages-a-brief-history.md)
+[The following page provides a brief history of programming languages.](05-01-writing-a-program/programming-languages-a-brief-history.md)
 
 #### Debugging
 
