@@ -4,7 +4,7 @@ The translation from model(s) to a set of instructions that can be executed by a
 
 The selection of the [programming language](https://en.wikipedia.org/wiki/Programming_language) is based first on the problem's particularities, then on the programmer's preferences. For example, certain industrial environments require specific programming languages because of the machines that will run the code (e.g., [programmable logic controllers](https://en.wikipedia.org/wiki/Programmable_logic_controller)). The assumption here is that the design will be implemented in Python. Most of the techniques and conventions introduced can be applied when using any other programming language.&#x20;
 
-### Model to Code
+### Model to Code: the Language
 
 All aspects of a problem considered during the analysis phase are critical to program development. Now, out of the blueprint artifacts introduced in Chapter 04, the implementation diagram and pseudocode are especially important. Flowcharts and pseudocode provide a structure and outline of the code. In some cases, the jump from implementation models to instructions can be done directly, but that is not to be expected for all designs. The reader will find that Python code has a highly readable syntax that is very close to pseudocode.&#x20;
 
@@ -13,6 +13,32 @@ Like pseudocode, a programming language uses symbols to represent data (input) a
 * **Name data**: Data to be used must be stored in main memory. Syntax must facilitate the assignment of memory for saving and retrieving data. &#x20;
 * **Access Hardware Devices**: The syntax must allow moving data from peripheral devices to memory (input) and from memory to peripheral devices (output).
 * **Execute Arithmetic and Logic Instructions**: A syntax must exist to execute operations as basic as the ALU (Arithmetic Logic Unit). Nowadays, modern programming languages go beyond those basic operations. Syntax also must support selection and iteration to manage program decision-making.
-* **Express Statements**:&#x20;
-* **Name Modules**
+* **Express Statements**: Rules of how to order a set of instructions that can be considered a single sentence, including the data names, arithmetic, and logic performed on the data. Correct sets are called statements.&#x20;
+* **Name Modules**: Syntax must exist to aggregate statements into a single module. Syntax for invoking these modules must exist (including selection, iteration, and nesting capabilities) to support structured programming.
+
+The syntax for the Python language can be found [here](https://docs.python.org/3/reference/index.html).&#x20;
+
+### Model to Code: Composing
+
+Once the language's syntax is known, the designer can proceed to write the program or **source code**. The writing is done using the language's instructions, which are usually expressed in [ASCII](https://en.wikipedia.org/wiki/ASCII) or [UTF-8](https://en.wikipedia.org/wiki/UTF-8) characters (early programming languages, and some still in use, were written only in numbers). Just as a word processor facilitates the crafting of documents, some programs (Integrated Development Environment or IDE) have been developed to assist in composing code.
+
+Although most programming languages can be written in almost any text editor, IDEs are recommended since they can catch errors, test code, manage versions, and even suggest code (AI is a common included feature). IDEs also handle the correct way to store files that contain code. Python files must be saved with the " **.py** " extension. Again, with a general-purpose text editor, coders must pay special attention when saving and manipulating files so they can be executed.
+
+### Code to Action
+
+The syntax of a language like Python is considered high-level relative to the language internally used in a computer. This means that the source code can be read by the programmer but not directly by the computer. Therefore, the program's high-level language must be translated into machine-readable code (ultimately represented in binary form) for execution. Compilers and interpreters are two common alternatives for this translation.
+
+#### Compilers
+
+Compilers translate source code into intermediate code, known as object code. As the code is translated, the syntax is checked. If syntax errors occur, a list of these errors is output to the screen, and if the errors are serious, the object code is not created. Traditional compilers will then call on another program, called a linkage editor, which links the object code written by the programmer with other object code, thereby providing access to standardized routines. The resulting code is called executable and can indeed be executed in the appropriate operating system environment. A programming language that uses a compiler does not create an executable until all syntax errors are corrected. Therefore, the program is never run until it is free of such errors. [Java](https://en.wikipedia.org/wiki/Java_\(programming_language\)) is an example of a compiler-based programming language.
+
+#### Interpreters&#x20;
+
+Interpreters run the program during the translation. In contrast to compilers, the translation occurs at execution time. Each statement is translated and executed. The important difference is that a traditional compiler translates the entire source code into a separate file before execution, whereas an interpreter translates at execution time.
+
+Python utilizes a hybrid approach. When a Python script is executed, the source code is first compiled into a lower-level, platform-independent format called _bytecode_. This bytecode is then immediately interpreted and executed by the Python Virtual Machine (PVM). Nevertheless, Python is considered an interpreted language.
+
+#### Compilers vs Interpreters
+
+The obvious advantage of a pure compiler is the speed of execution, since the translation is done once and thereafter the program can be executed. Compiled programs typically run faster than interpreted programs. The disadvantage is that the executable code is tied to a particular machine or machine architecture. Interpreted code is slower to execute because of translation time, but it has the advantage of being more portable, since the translation takes place at runtime on the machine where it is executed. However, the interpreter must reside on the machine executing the program.
 
