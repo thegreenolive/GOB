@@ -40,5 +40,17 @@ Python utilizes a hybrid approach. When a Python script is executed, the source 
 
 #### Compilers vs Interpreters
 
-The obvious advantage of a pure compiler is the speed of execution, since the translation is done once and thereafter the program can be executed. Compiled programs typically run faster than interpreted programs. The disadvantage is that the executable code is tied to a particular machine or machine architecture. Interpreted code is slower to execute because of translation time, but it has the advantage of being more portable, since the translation takes place at runtime on the machine where it is executed. However, the interpreter must reside on the machine executing the program.
+The obvious advantage of a pure compiler is execution speed, since the translation is done once and the program can thereafter be executed. Compiled programs typically run faster than interpreted programs. The disadvantage is that the executable code is tied to a particular machine or machine architecture. Interpreted code is slower to execute because of translation time, but it has the advantage of being more portable, since the translation takes place at runtime on the machine where it is executed. However, the interpreter must reside on the machine executing the program.
+
+[The following page provides a brief history of programming languages.](programming-languages-a-brief-history.md)
+
+#### Debugging
+
+As noted above, when syntax errors occur, the compiler or interpreter notifies the programmer. The programmer is responsible for correcting these errors in the source code and rerunning the translation steps. The act of correcting syntax errors is often called debugging the program. Although debugging syntax errors can be stressful and tedious, the process usually converges, resulting in a bug-free program as far as syntax is concerned.
+
+Even if a program is syntactically correct, it may still not run correctly or at all. Problems that cause the program to end abnormally are called run-time errors. Problems that prevent the program from running correctly (yielding incorrect output) are called logic errors.
+
+Run-time errors are detected when execution is attempted, and the computer informs the user of the error's nature (in Python, this is called a Traceback). Often these errors are related to accessing data, attempting to divide by zero, or passing the wrong data type. Logic errors are detected by scrutinizing the program's execution results on data for which the outcome is known. Such data is referred to as test data, and the programmer is responsible for developing such data and testing the program against it. The term debugging also refers to eliminating run-time, logic, and syntax errors from the program.
+
+There is no recipe to follow that guarantees a program is free of bugs. Continued, methodical testing is a good approach, but the problem's complexity and the number of instructions can make debugging an endless task. Additionally, tacit requirements can cause the perception of a software behavior as a bug. For example, early ATM transactions didn't have a timeout to cancel transactions when the customer didn't provide input (i.e., customers who got the money and left the ATM without finishing the transaction and taking their card); that program behavior originated fraudulent transactions.
 

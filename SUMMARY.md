@@ -36,4 +36,6 @@
   * [04.04 Implementation Models](chapter-04-the-blueprint-of-a-solution/04.04-implementation-models.md)
 * [Chapter 05: Programming](chapter-05-programming/README.md)
   * [05:00 Introduction](chapter-05-programming/05-00-introduction.md)
-  * [05:01 Writing a Program](chapter-05-programming/05-01-writing-a-program.md)
+  * [05:01 Writing a Program](chapter-05-programming/05-01-writing-a-program/README.md)
+    * [Programming Languages: A Brief History](chapter-05-programming/05-01-writing-a-program/programming-languages-a-brief-history.md)
+  * [Guidelines for Python Coding](chapter-05-programming/guidelines-for-python-coding.md)
