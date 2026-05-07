@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
+  * [The MIT License (MIT)](readme/the-mit-license-mit.md)
 * [Chapter 00: Introduction to Problem Solving](chapter-00-introduction-to-problem-solving/README.md)
   * [00.0 Introduction](chapter-00-introduction-to-problem-solving/quickstart.md)
   * [00.1 Problem-solving as a nonlinear process](chapter-00-introduction-to-problem-solving/publish-your-docs.md)
