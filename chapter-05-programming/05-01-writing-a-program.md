@@ -6,9 +6,9 @@ The selection of the [programming language](https://en.wikipedia.org/wiki/Progra
 
 ### Model to Code: the Language
 
-All aspects of a problem considered during the analysis phase are critical to program development. Now, out of the blueprint artifacts introduced in Chapter 04, the implementation diagram and pseudocode are especially important. Flowcharts and pseudocode provide a structure and outline of the code. In some cases, the jump from implementation models to instructions can be done directly, but that is not to be expected for all designs. The reader will find that Python code has a highly readable syntax that is very close to pseudocode.&#x20;
+All aspects of a problem considered during the analysis phase are critical to program development. Now, out of the blueprint artifacts introduced in Chapter 04, the implementation diagram and pseudocode are especially important. Flowcharts and pseudocode provide structure and an outline for the code. In some cases, the jump from implementation models to instructions can be made directly, but that is not expected for all designs. The reader will find that Python code has a highly readable syntax that closely resembles pseudocode.
 
-Like pseudocode, a programming language uses symbols to represent data (input) and actions to be performed on it (output). The set of rules that defines how data is represented and how instructions are encoded for execution is the **syntax** of the programming language. In general terms, there are some aspects of the syntax that each programming language addresses. In the same way that French and English are different languages, but both have the equivalent of words indicating action or _verbs_. The following list includes aspects of functionality that are provided by most programming languages' syntax.
+Like pseudocode, a programming language uses symbols to represent data (input) and actions to be performed on it (output). The set of rules that defines how data is represented and how instructions are encoded for execution is the **syntax** of the programming language. In general terms, there are some aspects of the syntax that each programming language addresses. In the same way that French and English are different languages, but both have the equivalent of words indicating action or _verbs_. The following list includes aspects of functionality provided by the syntax of most programming languages.
 
 * **Name data**: Data to be used must be stored in main memory. Syntax must facilitate the assignment of memory for saving and retrieving data. &#x20;
 * **Access Hardware Devices**: The syntax must allow moving data from peripheral devices to memory (input) and from memory to peripheral devices (output).
@@ -16,7 +16,7 @@ Like pseudocode, a programming language uses symbols to represent data (input) a
 * **Express Statements**: Rules of how to order a set of instructions that can be considered a single sentence, including the data names, arithmetic, and logic performed on the data. Correct sets are called statements.&#x20;
 * **Name Modules**: Syntax must exist to aggregate statements into a single module. Syntax for invoking these modules must exist (including selection, iteration, and nesting capabilities) to support structured programming.
 
-The syntax for the Python language can be found [here](https://docs.python.org/3/reference/index.html).&#x20;
+The Python syntax can be found [here](https://docs.python.org/3/reference/index.html).&#x20;
 
 ### Model to Code: Composing
 
@@ -40,7 +40,7 @@ Python utilizes a hybrid approach. When a Python script is executed, the source 
 
 #### Compilers vs Interpreters
 
-The obvious advantage of a pure compiler is execution speed, since the translation is done once and the program can thereafter be executed. Compiled programs typically run faster than interpreted programs. The disadvantage is that the executable code is tied to a particular machine or machine architecture. Interpreted code is slower to execute because of translation time, but it has the advantage of being more portable, since the translation takes place at runtime on the machine where it is executed. However, the interpreter must reside on the machine executing the program.
+The obvious advantage of a pure compiler is execution speed, since the translation is done once and the program can thereafter be executed. Compiled programs typically run faster than interpreted programs. The disadvantage is that the executable code is tied to a particular machine or machine architecture. Interpreted code is slower to execute due to translation time, but it is more portable because the translation occurs at runtime on the machine where it is executed. However, the interpreter must reside on the machine executing the program.
 
 [The following page provides a brief history of programming languages.](05-01-writing-a-program/programming-languages-a-brief-history.md)
 
@@ -52,5 +52,5 @@ Even if a program is syntactically correct, it may still not run correctly or at
 
 Run-time errors are detected when execution is attempted, and the computer informs the user of the error's nature (in Python, this is called a Traceback). Often these errors are related to accessing data, attempting to divide by zero, or passing the wrong data type. Logic errors are detected by scrutinizing the program's execution results on data for which the outcome is known. Such data is referred to as test data, and the programmer is responsible for developing such data and testing the program against it. The term debugging also refers to eliminating run-time, logic, and syntax errors from the program.
 
-There is no recipe to follow that guarantees a program is free of bugs. Continued, methodical testing is a good approach, but the problem's complexity and the number of instructions can make debugging an endless task. Additionally, tacit requirements can cause the perception of a software behavior as a bug. For example, early ATM transactions didn't have a timeout to cancel transactions when the customer didn't provide input (i.e., customers who got the money and left the ATM without finishing the transaction and taking their card); that program behavior originated fraudulent transactions.
+There is no recipe to follow that guarantees a program is free of bugs. Continued, methodical testing is a good approach, but the problem's complexity and the number of instructions can make debugging an endless task. Additionally, tacit requirements can lead to the perception of software behavior as a bug. For example, early ATM transactions didn't have a timeout to cancel when the customer didn't provide input (i.e., customers who got the money and left the ATM without finishing the transaction and taking their card), which led to fraudulent transactions.
 

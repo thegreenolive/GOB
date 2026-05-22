@@ -30,7 +30,7 @@ A structured program consists of modules. In Python, data can be declared specif
 
 A program must be able to assign values or change values in a storage location represented by a variable. The equals symbol  `=` is the mechanism for assignment. The assignment should be thought of as "replace the target data value with the value determined by the source". The target is usually to the left of the equals sign, and the source is to the right, and this symbol must not be confused with the mathematical equals.
 
-A programming language must be able to support common arithmetic operations such as addition `+`, subtraction `-`, multiplication `*`, and division `/`. Python supports more complex mathematical operations, such as the modulus `%`) and exponentiation `**`.
+A programming language must be able to support common arithmetic operations such as addition `+`, subtraction `-`, multiplication `*`, and division `/`. Python supports more complex mathematical operations, such as the modulus `%` and exponentiation `**`.
 
 #### Logical Data and Conditions
 
@@ -59,7 +59,7 @@ Beyond simple branching conditions, logic structures must allow repeated executi
 
 The processing or procedure portion of a program is realized using statements. The statements must be placed within a framework or structure. Modules generally provide the basic mechanism for structure. Each language has its own term for modules (e.g., methods, functions, subroutines); in Python, these are primarily called _functions_ or _methods_.
 
-Statements are the building blocks of what is termed program logic. Statements serve to assign data to storage locations, perform arithmetic and logical operations, input data from the environment, output data to the environment, and invoke modules.
+Statements are the building blocks of program logic. Statements serve to assign data to storage locations, perform arithmetic and logical operations, input data from the environment, output data to the environment, and invoke modules.
 
 Programming languages must also provide a way to insert text or dialogue to support commenting on code sections. Such comments or remarks are known as documentation and are not executable. Python uses the hash symbol `#`  for single-line comments. Interpreters simply ignore the remarks as far as translation. Remarks are inserted to provide guideposts for those attempting to follow the program's logic of the program, which is vital for later modifications.
 
