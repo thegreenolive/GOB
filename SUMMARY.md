@@ -30,6 +30,7 @@
   * [03.3 The Four-Step Approach](chapter-03-instructions-as-solutions/03.3-the-four-step-approach.md)
   * [Copy of 03.3 The Four-Step Approach](chapter-03-instructions-as-solutions/03.3-the-four-step-approach-1.md)
   * [03.4 Walkthroughs](chapter-03-instructions-as-solutions/03.4-walkthroughs.md)
+  * [Copy of 03.4 Walkthroughs](chapter-03-instructions-as-solutions/03.4-walkthroughs-1.md)
 * [Chapter 04: The Blueprint of a Solution](04-the-blueprint-of-a-solution/README.md)
   * [04.00 Introduction](04-the-blueprint-of-a-solution/04.00-introduction.md)
   * [04.01 Structured Programming and Algorithms](04-the-blueprint-of-a-solution/04.01-structured-programming-and-algorithms.md)
